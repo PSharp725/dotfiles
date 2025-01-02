@@ -19,6 +19,7 @@ alias update='sudo pacman -Syu'
 alias la='ls -a'
 alias sound='pavucontrol'
 alias vi='nvim'
+alias svi='sudo nvim'
 alias cs='clear;ls'
 alias ca='clear;ls -a'
 alias p='cat'
@@ -32,3 +33,6 @@ alias gs='git status'
 
 alias spotify='spotify-launcher'
 alias bluetooth='blueman-manager'
+alias hypr='hyprland'
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
