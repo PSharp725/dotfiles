@@ -15,3 +15,7 @@ require("lazy").setup({
     spec = "pattyice.lazy",
     change_detection = { notify = false }
 })
+
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
+
