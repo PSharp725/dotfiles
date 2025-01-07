@@ -36,4 +36,4 @@ alias spotify='spotify-launcher'
 alias bluetooth='blueman-manager'
 alias hypr='hyprland'
 export PATH="$HOME/bin:$PATH"
-export PATH="$HOME/bin:$PATH"
+export PATH=$PATH:/usr/local/go/bin

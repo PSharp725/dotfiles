@@ -13,7 +13,18 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     spec = "pattyice.lazy",
-    change_detection = { notify = false }
+    change_detection = { notify = false },
+    -- vim-textobj-user
+  {
+    "kana/vim-textobj-user",
+    lazy = false, -- Load eagerly since this is a dependency
+  },
+
+  -- vim-textobj-hydrogen
+  {
+    "GCBallesteros/vim-textobj-hydrogen",
+    lazy = false, -- Load eagerly
+  },
 })
 
 vim.o.background = "dark" -- or "light" for light mode
